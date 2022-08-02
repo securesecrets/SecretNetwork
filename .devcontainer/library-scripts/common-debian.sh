@@ -8,7 +8,6 @@
 # Maintainer: The VS Code and Codespaces Teams
 #
 # Syntax: ./common-debian.sh [install zsh flag] [username] [user UID] [user GID] [upgrade packages flag] [install Oh My Zsh! flag] [Add non-free packages]
-
 set -e
 
 INSTALL_ZSH=${1:-"true"}

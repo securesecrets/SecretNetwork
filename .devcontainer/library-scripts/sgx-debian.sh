@@ -11,7 +11,7 @@ LD_LIBRARY_PATH=/opt/sgxsdk/libsgx-enclave-common/
 UPDATE_RC=${1:-"true"}
 
 updaterc() {
-    if [ "${UPDATE_RC}" = "true" ]; then
+    if [ "${UPDATE_RC}"="true" ]; then
         echo "Updating /etc/bash.bashrc and /etc/zsh/zshrc..."
         if [[ "$(cat /etc/bash.bashrc)" != *"$1"* ]]; then
             echo -e "$1" >> /etc/bash.bashrc

@@ -16,3 +16,4 @@ make: *** [Makefile:140: build_local_no_rust] Error 1
 
 ### Getting local network setup
 checkout /scripts/start-node.sh in the directory and run it
+Update
